@@ -1,0 +1,242 @@
+body {
+  background-color: #faf4f2;
+  margin: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.header {
+  /* ma mau hex #rr gg bb*/
+  background-color: #f8e1db;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 10;
+  /* z-index:  chinh do uu tien; */
+}
+
+.header .logo {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.header .logo img {
+  width: 70px;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: #000000;
+  margin-right: 20px;
+}
+
+.header .navbar a:hover {
+  color: #ff0000;
+}
+
+.carousel {
+  background-image: url(../Image/BG.png);
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* background-position: x y;  */
+  background-position: center;
+}
+
+.activity {
+  padding: 80px 0;
+}
+
+.activity .title {
+  text-align: center;
+  color: #8d8d8d;
+}
+
+/* float */
+
+.activity .main .row .col {
+  float: left;
+  width: 25%;
+  /* margin-right: 30px; */
+  padding: 0 15px;
+  box-sizing: border-box;
+  /* border: 1px solid; */
+}
+
+.activity .main .item {
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 40px;
+  text-align: center;
+}
+
+.activity .main .item .thumbnall {
+  position: relative;
+  /* bat dau tu vi tri hien tai */
+}
+
+.activity .main .item .thumbnall img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activity .main .item .thumbnall i {
+  color: red;
+  font-size: 20px;
+  /* absolute, relative , fixed*/
+  position: absolute;
+  /* bat dau tu vi tri cha */
+  top: 20px;
+  /* left: 90px; */
+  /* bottom: 50px; */
+
+  right: 20px;
+  background-color: rgba(225, 225, 225, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  line-height: 40px;
+  /* opacity: 0.5; */
+}
+
+.activity .main .item h1 {
+  font-size: 25px;
+}
+
+.activity .main .item p {
+  color: #b3b3b3;
+  line-height: 25px;
+}
+.activity .main .item a {
+  background-color: #e8e8e8;
+  text-decoration: none;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 100px;
+  color: #8d8d8d;
+}
+
+.container-btn {
+  width: 175px;
+  margin: auto;
+}
+
+.btn-viewall {
+  font-size: 15px;
+  width: 175px;
+  height: 40px;
+  text-align: center;
+  color: #ec8f78;
+  background-color: rgba(250, 244, 242, 0.5);
+  border-radius: 20px;
+  margin-top: 40px;
+  border-color: #f8bcac;
+}
+
+.contact {
+  background-color: #f8e1db;
+  height: 350px;
+}
+
+.contact .main .row .col {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.contact .main .left {
+  background-image: url(../Image/mask.png);
+  background-size: cover;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.contact .main .left img {
+  width: 400px;
+  padding-left: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.contact .main .right {
+  color: #9b9898;
+}
+.contact .main .right .top {
+  margin-top: 70px;
+  margin-bottom: 20px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.contact .main .col_left .bot {
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+.contact .main .bot .bot_left {
+  margin-left: 70px;
+}
+.contact .main .bot_left .bot_item {
+  float: right;
+  width: 50%;
+  box-sizing: border-box;
+  margin: 0px;
+}
+.contact .main .bot_left .bot_item img {
+  width: 130px;
+}
+
+.contact .main .bot_right .bot_right_item {
+  float: left;
+  width: 10%;
+  box-sizing: border-box;
+  margin-right: 0px;
+}
+
+.contact .main .bot_right .bot_right_item i {
+  font-size: 20px;
+  color: #e76f51;
+}
+
+.footer {
+  margin-top: 80px;
+  background-color: #f8e1db;
+  height: 400px;
+  border-radius: 80px;
+}
+.footer .main .row .col_left {
+  float:left;
+  width:40%;
+  box-sizing:border-box;
+  margin-top:70px;
+  margin-left:50px;
+  margin-bottom:50px;
+  padding-right:30px;
+}
+.footer .main .row .col_right {
+  float: left;
+  width: 18%;
+  box-sizing: border-box;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.footer h3 {
+  font-size: 18px;
+}
+.footer .main .row .col_left p {
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.footer .main .footer_icon {
+  position: relative;
+}
+.footer .main .footer_icon i {
+  /* position: absolute; */
+  /* left: 577px;
+     bottom: 1.8px; */
+}
